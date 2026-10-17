@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# 원본 데이터와 중간 산출물
+data/*
+!data/README.md
+dict/knu_sentiment_lexicon.csv
+*.lda*
+*.dtm*
+*.data*
+LDAvis/
+단어빈도정보*.csv
+wordcloud.png
